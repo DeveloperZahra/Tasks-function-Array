@@ -50,3 +50,39 @@ let updatedStudents = [...students, newStudent];
 const { name, grade } = students[0];
 console.log("First Student Name:", name);
 console.log("First Student Grade:", grade);
+
+
+// =====================================
+// 5. Conditions: Grade Check + Switch for City
+// =====================================
+
+function checkGrade(student) {
+    if (student.grade >= 90) {
+        console.log("Excellent");
+    } else if (student.grade >= 75) {
+        console.log("Good");
+    } else if (student.grade >= 50) {
+        console.log("Pass");
+    } else {
+        console.log("Fail");
+    }
+}
+
+function checkCity(student) {
+    switch (student.city) {
+        case "Cairo":
+            console.log("City: Cairo");
+            break;
+        case "Alex":
+            console.log("City: Alexandria");
+            break;
+        default:
+            console.log("City: Other");
+    }
+}
+
+//  apply this to the first student only as an example.
+console.log("=== Grade and City Check for First Student ===");
+checkGrade(students[0]);
+checkCity(students[0]);
+

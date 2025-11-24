@@ -105,3 +105,8 @@ console.log("After pop:", students);
 // unshift()
 students.unshift({ name: "Mona", age: 19, grade: 77, city: "Cairo" });
 console.log("After unshift:", students);
+
+
+// shift()
+students.shift();
+console.log("After shift:", students);

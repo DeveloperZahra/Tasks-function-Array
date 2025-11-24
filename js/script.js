@@ -22,3 +22,7 @@ function printStudent(student) {
     console.log("City:", student.city);
     console.log("----------------------------");
 }
+
+
+// Call the function for each student
+students.forEach(s => printStudent(s));

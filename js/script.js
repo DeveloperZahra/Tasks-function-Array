@@ -86,3 +86,11 @@ console.log("=== Grade and City Check for First Student ===");
 checkGrade(students[0]);
 checkCity(students[0]);
 
+
+// =====================================
+// 6. Array Methods
+// =====================================
+
+// push()
+students.push({ name: "Khalid", age: 23, grade: 60, city: "Salalah" });
+console.log("After push:", students);

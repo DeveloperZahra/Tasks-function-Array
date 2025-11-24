@@ -26,3 +26,18 @@ function printStudent(student) {
 
 // Call the function for each student
 students.forEach(s => printStudent(s));
+
+
+
+// =====================================
+// 3. Add New Student Using Spread Operator
+// =====================================
+
+let newStudent = {
+    name: "Zahra",
+    age: 20,
+    grade: 95,
+    city: "Muscat"
+};
+
+let updatedStudents = [...students, newStudent];

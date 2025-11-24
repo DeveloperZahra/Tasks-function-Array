@@ -41,6 +41,7 @@ let newStudent = {
 };
 
 let updatedStudents = [...students, newStudent];
+console.log(newStudent);
 
 
 // =====================================
@@ -94,3 +95,8 @@ checkCity(students[0]);
 // push()
 students.push({ name: "Khalid", age: 23, grade: 60, city: "Salalah" });
 console.log("After push:", students);
+
+
+// pop()
+students.pop();
+console.log("After pop:", students);

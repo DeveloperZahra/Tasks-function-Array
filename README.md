@@ -5,7 +5,10 @@
 slice() is a method that creates a new array by copying a part of an existing array without changing the original array.
 
 * **Syntax**
+  
+```sql
 array.slice(start, end);
+```
 
 * **Explanation**
 
@@ -37,7 +40,7 @@ start at index 1 → "Sara"
 
 stop at index 4 (but 4 is NOT included)
 
-===================================================
+
 
 # 2. includes() — What does it do?
 * **Definition**
@@ -50,8 +53,8 @@ It returns:
 * false → the value does NOT exist
 
 * **Syntax**
-
-  ```sql
+  
+ ```sql
 array.includes(value);
 ```
 

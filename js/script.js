@@ -41,3 +41,12 @@ let newStudent = {
 };
 
 let updatedStudents = [...students, newStudent];
+
+
+// =====================================
+// 4. Destructuring (First Student)
+// =====================================
+
+const { name, grade } = students[0];
+console.log("First Student Name:", name);
+console.log("First Student Grade:", grade);

@@ -110,3 +110,16 @@ console.log("After unshift:", students);
 // shift()
 students.shift();
 console.log("After shift:", students);
+
+
+// slice()
+let smallArray = students.slice(0, 3);
+console.log("Slice result:", smallArray);
+
+
+// includes --> only need array names
+let names = students.map(s => s.name);
+console.log("Names array:", names);
+
+console.log("Check if Sara exists:", names.includes("Sara"));
+console.log("Check if Fatima exists:", names.includes("Fatima"));
